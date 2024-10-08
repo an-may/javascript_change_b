@@ -1,0 +1,66 @@
+@charset "UTF-8";
+:root[data-theme="color-a"] {
+    --color-main: #A63C51;
+    --color-sub: #CC9397;
+    --color-text1: #A63C51;
+    --color-text2: #CC9397;
+}/*加州清光*/
+
+:root[data-theme="color-b"] {
+    --color-main:  #5BACC6;
+    --color-sub: #B4DFEA;
+    --color-text1: #5BACC6;
+    --color-text2: #B4DFEA;
+}/*堀川国広*/
+
+:root[data-theme="color-c"] {
+    --color-main: #D7D8D8;
+    --color-sub: #959595;
+    --color-text1: #D7D8D8;
+    --color-text2: #959595;
+}/*鶴丸国永*/
+
+:root[data-theme="color-d"] {
+    --color-main: #FFF;
+    --color-sub: #FFF;
+    --color-text1: #000;
+    --color-text2: #000;
+}/*鶴丸国永*/
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text2);
+}
+
+p {
+    background-color: var(--color-sub);
+    color: var(--color-text1);
+}
+
+/*ボタンの装飾*/
+button {
+    width: 65px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+#btn-a {
+    background-color: #A63C51;
+    color: #CC9397;
+}
+
+#btn-b {
+    background-color: #5BACC6;
+    color: #B4DFEA;
+}
+
+#btn-c {
+    background-color: #D7D8D8;
+    color: #959595;
+}
+
+/*#btn-d {
+    background-color: #FFF;
+    color: #000;
+}*/
